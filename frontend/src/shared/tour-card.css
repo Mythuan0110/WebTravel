@@ -36,9 +36,10 @@
     font-weight: 500;
     font-size: 0.9rem;
 }
-.tour__ratingi,
+.tour__rating,
 .tour__location i{
     font-size: 1rem;
+    
 }
 .tour__title a{
     text-decoration: none;
