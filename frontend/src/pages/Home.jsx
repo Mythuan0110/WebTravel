@@ -21,7 +21,7 @@ const Home = () => {
         <Col lg='6'>
           <div className="hero__content">
             <div className="hero__subtitle d-flex align-items-center">
-            <Subtitle subtitle ={'Know before you go'}/>
+            <Subtitle subtitle ={'Đi để biết thật nhiều'}/>
             <img src={worldImg} alt="" />
             </div>
             <h1>Ngọn núi nhiều truyền thuyết và lưu giữ lịch sử {" "}
@@ -62,7 +62,7 @@ const Home = () => {
             Những gì chúng tôi phục vụ
           </h5>
           <h2 className='services__title'>
-           Dịch vụ cung cấp tốt nhất dành cho bạn
+           Núi Bà Đen sẽ cho bạn những trải nghiệm dịch vụ tốt nhất.
           </h2>
         </Col>
         <ServiceList/>
@@ -76,8 +76,8 @@ const Home = () => {
   <Container>
     <Row>
       <Col lg="12" className="mb-5">
-        <Subtitle subtitle={"Explore"} />
-        <h2 className='featured__tour-title'>Our farured tours</h2>
+        <Subtitle subtitle={"Khám phá"} />
+        <h2 className='featured__tour-title'>Đặt vé ngay</h2>
       </Col>
       <FeaturedTourList/>
     </Row>
