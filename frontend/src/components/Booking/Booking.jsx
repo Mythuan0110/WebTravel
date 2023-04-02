@@ -60,7 +60,7 @@ const Booking = ({ tour, avgRating }) => {
     <div className="booking">
       <div className="booking__top d-flex align-items-center justify-content-between">
         <h3>
-          {totalAmount} VND<span>/Mỗi người</span>
+          {totalAmount} $<span>/Mỗi người</span>
         </h3>
         <span className="tour__rating d-flex align-items-center">
           <i className="ri-star-half-fill"></i>
@@ -116,11 +116,11 @@ const Booking = ({ tour, avgRating }) => {
           </ListGroupItem>
           <ListGroupItem className="border-0 px-0">
             <h5>VAT</h5>
-            <span>10.000 VND</span>
+            <span>10 $</span>
           </ListGroupItem>
           <ListGroupItem className="border-0 px-0 total">
             <h5>tổng cộng</h5>
-            <span>{totalAmount} VND</span>
+            <span>{totalAmount} $</span>
           </ListGroupItem>
         </ListGroup>
         <Button className="btn primary__btn w-100 mt-4" onClick={handleClick}>
