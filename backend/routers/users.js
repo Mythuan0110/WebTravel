@@ -5,11 +5,12 @@ import { verifyAdmin, verifyUser } from '../controllers/utils/verifyToken.js';
 //update User moi
 router.put('/:id',verifyUser, updateUser);
 //xoa User 
-router.delete('/:id',verifyUser,deleteUser);
+router.delete('/:id',deleteUser);
 //get single User
 router.get('/:id',verifyUser,getSingleUser);
 //get all User
-router.get('/',verifyAdmin,getAllUser);
+router.get('/',getAllUser);
+
 
 
 export default router
