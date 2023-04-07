@@ -16,6 +16,8 @@ const ToursDetails = () => {
   const[ tourRating , setTourRating ] = useState (null);
   const {user} = useContext(AuthContext)
   /// đây là dữ liệu tĩnh sau này chúng ta sẽ gọi API của mình và tải dữ liệu của chúng ta từ cơ sở dữ liệu
+
+
   const{data:tour,loading,error} = useFetch (`${BASE_URL}/tours/${id}`)
   ///hủy cấu trúc các thuộc tính khỏi đối tượng tham quan
   const{photo,title , desc, price , reviews, city ,address, distance , maxGroupSize} = tour;
@@ -56,6 +58,13 @@ const ToursDetails = () => {
   useEffect (()=>{
     window.scrollTo(0,0)
   }, [tour])
+
+
+
+
+
+
+  
   return (
     <>
     <section>
