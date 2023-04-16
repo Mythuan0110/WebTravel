@@ -9,6 +9,9 @@ import ServiceList from "../../services/ServiceList";
 import MasonryImagesGallery from "../../components/Image-gallery/MasonryImagesGallery";
 import Testimonials from "../../components/Testimonial/Testimonials";
 import Newsletter from "../../shared/Newsletter";
+import TourList from "../../shared/OData";
+
+
 const About = () => {
   return (
     <>
@@ -180,7 +183,7 @@ const About = () => {
           </Row>
         </Container>
       </section>
-      <Newsletter />
+      <TourList />
     </>
   );
 };
